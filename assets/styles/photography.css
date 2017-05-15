@@ -1,0 +1,45 @@
+body{
+  background: black;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+img{
+  padding: 6px !important;
+  transition: opacity ease-out;
+   -moz-transition: opacity ease-out;
+   -webkit-transition: opacity ease-out;
+   -o-transition: opacity ease-out;
+}
+
+.instaLogo{
+  height: 100px;
+  width: 100px;
+}
+
+.photoLogo {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.imgHorizontal{
+  height: 317.33px;
+}
+
+.imgVertical{
+  height: 639.66px;
+}
+
+img:hover{
+  opacity: .3;
+}
+
+h1{
+  margin: 20px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-family: 'Architects Daughter', cursive;
+  text-shadow: 1px 1px hsl(197, 60%, 44%);
+}
